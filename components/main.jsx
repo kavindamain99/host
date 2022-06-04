@@ -53,7 +53,7 @@ function Main() {
         <Routes>
           <Route path="/admin" element={<AdminLogin />}></Route>
           <Route path="/dashboard" element={<Dashboard />}></Route>
-          <Route path="/user/management" element={<UserManagement />}></Route>
+          <Route path="/management" element={<UserManagement />}></Route>
           <Route path="/user/student" element={<Student />}></Route>
           <Route path="/user/panel" element={<Panel />}></Route>
           <Route path="/student/update/:id" element={<StudentUpdate />}></Route>
