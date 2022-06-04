@@ -1,1 +1,1 @@
-export const API = "https://research-tool-online.herokuapp.com/";
+export const API = "https://research-tool-online.herokuapp.com/api";
