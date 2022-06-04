@@ -7,7 +7,7 @@ export default function SignIn() {
   const [studentId, setStudentId] = useState("");
   const [password, setPassword] = useState("");
 
-  handleSignUp = async (e) => {
+  const handleSignUp = async (e) => {
     e.preventDefault();
 
     try {

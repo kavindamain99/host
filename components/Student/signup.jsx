@@ -12,7 +12,7 @@ export default function SignUp() {
   const [studentId, setStudentId] = useState("");
   const [degree, setDegree] = useState("");
 
-  handleSignUp = async (e) => {
+  const handleSignUp = async (e) => {
     e.preventDefault();
 
     try {
