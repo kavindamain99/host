@@ -2,10 +2,9 @@
   "name": "client",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build --public-url ./ ./index.html --dist-dir build"
+    "build": "cross-env NODE_ENV=production parcel build ./index.html --public-url ./"
   },
   "author": "",
   "license": "ISC",
